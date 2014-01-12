@@ -114,10 +114,14 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="871 Code" Type="Folder">
 			<Item Name="Subsystems" Type="Folder">
-				<Item Name="Drive Control.vi" Type="VI" URL="../871/Subsystems/Drive Control.vi"/>
-				<Item Name="Rotation Autocorrection.vi" Type="VI" URL="../871/Subsystems/Rotation Autocorrection.vi"/>
-				<Item Name="Fire Control.vi" Type="VI" URL="../871/Subsystems/Fire Control.vi"/>
-				<Item Name="ShooterFuncGlob.vi" Type="VI" URL="../871/Subsystems/ShooterFuncGlob.vi"/>
+				<Item Name="Drive" Type="Folder">
+					<Item Name="Drive Control.vi" Type="VI" URL="../871/Subsystems/Drive Control.vi"/>
+					<Item Name="Rotation Autocorrection.vi" Type="VI" URL="../871/Subsystems/Rotation Autocorrection.vi"/>
+				</Item>
+				<Item Name="Shooter" Type="Folder">
+					<Item Name="Fire Control.vi" Type="VI" URL="../871/Subsystems/Fire Control.vi"/>
+					<Item Name="ShooterFuncGlob.vi" Type="VI" URL="../871/Subsystems/ShooterFuncGlob.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Utils" Type="Folder">
 				<Item Name="Typedefs" Type="Folder">
@@ -586,10 +590,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
