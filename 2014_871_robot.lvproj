@@ -117,6 +117,7 @@ DirectoryIndex index.htm
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="Drive Control.vi" Type="VI" URL="../871/Subsystems/Drive Control.vi"/>
 				<Item Name="Rotation Autocorrection.vi" Type="VI" URL="../871/Subsystems/Rotation Autocorrection.vi"/>
+				<Item Name="Autoaim.vi" Type="VI" URL="../871/Subsystems/Autoaim.vi"/>
 				<Item Name="Fire Control.vi" Type="VI" URL="../871/Subsystems/Fire Control.vi"/>
 				<Item Name="ShooterFuncGlob.vi" Type="VI" URL="../871/Subsystems/ShooterFuncGlob.vi"/>
 			</Item>
