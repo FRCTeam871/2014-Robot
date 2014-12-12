@@ -30,7 +30,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -115,11 +114,17 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="871 Code" Type="Folder">
 			<Item Name="Subsystems" Type="Folder">
+				<Item Name="Kanjam environment properties" Type="Folder">
+					<Item Name="TargetHeight.vi" Type="VI" URL="../871/Subsystems/TargetHeight.vi"/>
+					<Item Name="Gravity.vi" Type="VI" URL="../871/Subsystems/Gravity.vi"/>
+					<Item Name="HeightShooter.vi" Type="VI" URL="../871/Subsystems/HeightShooter.vi"/>
+				</Item>
 				<Item Name="Drive Control.vi" Type="VI" URL="../871/Subsystems/Drive Control.vi"/>
 				<Item Name="Rotation Autocorrection.vi" Type="VI" URL="../871/Subsystems/Rotation Autocorrection.vi"/>
 				<Item Name="Autoaim.vi" Type="VI" URL="../871/Subsystems/Autoaim.vi"/>
 				<Item Name="Fire Control.vi" Type="VI" URL="../871/Subsystems/Fire Control.vi"/>
 				<Item Name="ShooterFuncGlob.vi" Type="VI" URL="../871/Subsystems/ShooterFuncGlob.vi"/>
+				<Item Name="kanjam autoaim.vi" Type="VI" URL="../871/Subsystems/kanjam autoaim.vi"/>
 			</Item>
 			<Item Name="Utils" Type="Folder">
 				<Item Name="Typedefs" Type="Folder">
